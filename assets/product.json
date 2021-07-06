@@ -1,0 +1,6 @@
+[
+
+    {"productId":101, "productName":"mobile","productPrice":3000,"productDes":"the product is mobile ","productImg":"assets/images/download.jpg"},
+    {"productId":102, "productName":"mobile","productPrice":50000,"productDes":"the product is mobile" ,"productImg":"assets/images/poco.jpg"},
+    {"productId":103, "productName":"mobile","productPrice":500,"productDes":"the product is mobile ","productImg":"assets/images/iphone.jpg"}
+]

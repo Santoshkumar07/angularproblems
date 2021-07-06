@@ -1,0 +1,58 @@
+<h2>calculator works!</h2><hr>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<table>
+    <tr>
+        <td>
+            FirstNumber: <input type='text' placeholder="enter number1" [(ngModel)]='number1'><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            SecondNumber: <input type='text' placeholder="enter number1" [(ngModel)]='number2'><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Result:<input type='text' placeholder="result" [(ngModel)]='number3'>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" class='bg-primary' value='add' id="button" (click)="operation('+')">
+            <input type="button" class='bg-primary' value='sub' id="button" (click)="operation('-')">
+            <input type="button" class='bg-primary' value='mul' id="button" (click)="operation('*')">
+            <input type="button" class='bg-primary' value='div' id="button" (click)="operation('/')">
+        </td>
+    </tr>
+</table>
+
+<!--<h2>calculator works!</h2><hr>
+<table>
+    <tr>
+        <td>
+            FirstNumber: <input type='text' [(ngModel)]='number1'><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            SecondNumber: <input type='text' [(ngModel)]='number2'><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Result:<input type='text' [(ngModel)]='number3'>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" value='add' id="button" (click)="getResult('+')">
+            <input type="button" value='sub' id="button" (click)="getResult('-')">
+            <input type="button" value='mul' id="button" (click)="getResult('*')">
+            <input type="button" value='div' id="button" (click)="getResult('/')">
+        </td>
+    </tr>
+</table>-->
