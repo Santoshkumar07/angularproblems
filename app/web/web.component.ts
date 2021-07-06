@@ -8,7 +8,7 @@ import { WebService } from '../service/web.service';
 })
 export class WebComponent  {
 
-  filteredString:string='';
+ /* filteredString:string='';
   sortby:any='1';
   courses:any=[];
   errMsg:any;
@@ -18,5 +18,5 @@ export class WebComponent  {
       error => this.errMsg = error
     )
     }
-
+*/
 }

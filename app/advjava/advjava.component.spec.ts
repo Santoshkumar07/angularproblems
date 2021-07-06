@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ReactForms1Component } from './react-forms1.component';
+import { AdvjavaComponent } from './advjava.component';
 
-describe('ReactForms1Component', () => {
-  let component: ReactForms1Component;
-  let fixture: ComponentFixture<ReactForms1Component>;
+describe('AdvjavaComponent', () => {
+  let component: AdvjavaComponent;
+  let fixture: ComponentFixture<AdvjavaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ReactForms1Component ]
+      declarations: [ AdvjavaComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ReactForms1Component);
+    fixture = TestBed.createComponent(AdvjavaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
