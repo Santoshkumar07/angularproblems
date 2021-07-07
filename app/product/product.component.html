@@ -46,16 +46,16 @@
     </tr>
     <tr appMycolor *ngFor="let product of products | searchbyname:filteredString | sortpipe:sortby">
 
-        <td class="bg-info text-white">
+        <td class="text-red">
                {{product.productId}}
         </td>
-        <td class="bg-info text-white">
+        <td class="text-red">
             {{product.productName}}
      </td>
-     <td class="bg-info text-white">
+     <td class="text-red">
         {{product.productPrice}}
  </td>
- <td class="bg-info text-white">
+ <td class="text-red">
     {{product.productDes}}
 </td>
 <td>

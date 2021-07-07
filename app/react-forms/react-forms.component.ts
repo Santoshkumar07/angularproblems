@@ -19,7 +19,11 @@ export class ReactFormsComponent {
   /*=============== With using FormBuilder API ================*/
   constructor(private formBuilder:FormBuilder){}
   productForm = this.formBuilder.group({
-    productName: ['', [Validators.required, Validators.pattern('^[a-zA-z]{5,9}$')]]
+    productName: ['', [Validators.required, Validators.pattern('^[a-zA-z]{5,9}$')]],
+    address : this.formBuilder.group({
+     city: ['', [Validators.required, Validators.pattern('^[a-zA-z]{5,9}$')]],
+    postalcode: ['', [Validators.required, Validators.pattern('^[0-9]{6,6}$')]]
+    })
   })
 
   submitData() {
@@ -27,5 +31,4 @@ export class ReactFormsComponent {
     console.log(this.productForm.value)
 
   }
-
 }

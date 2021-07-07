@@ -67,7 +67,8 @@ import { AdvwebComponent } from './advweb/advweb.component';
     CorejavaComponent,
     CorewebComponent,
     AdvjavaComponent,
-    AdvwebComponent,
+    AdvwebComponent
+  
     
      
   
