@@ -1,6 +1,5 @@
 [
-    {"courseId":101, "courseName":"core java","coursePrice":25000,"courseDescrption":"Fullstack  training for 70 days","courseImg":"assets/images/corejava.png"},
-    {"courseId":102, "courseName":"spring framework","coursePrice":7000,"courseDescrption":"spring framework training for 30 days","courseImg":"assets/images/spring.png"},
-    {"courseId":103, "courseName":"spring boot","coursePrice":12000,"courseDescrption":"spring boot training for 40 days","courseImg":"assets/images/springboot.png"},
-    {"courseId":104, "courseName":"microservices","coursePrice":18000,"courseDescrption":"AI training for 68 days","courseImg":"assets/images/ai.jpg"}
+    {"courseId":101, "courseName":"core java","coursePrice":25000,"courseDescrption":"Fullstack  training for 70 days","courseImg":"assets/images/corejava.jpg"},
+    {"courseId":102, "courseName":"Servlets","coursePrice":12000,"courseDescrption":"servlets  training for 28 days","courseImg":"assets/images/spring1.png"},
+    {"courseId":103, "courseName":"Jsp","coursePrice":6500,"courseDescrption":"Jsp training for 9 days","courseImg":"assets/images/springboot.png"}
 ]

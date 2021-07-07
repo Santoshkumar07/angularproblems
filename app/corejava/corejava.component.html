@@ -1,5 +1,5 @@
-<p>corejava works!</p>
-<h2>Java Courses Works!</h2><hr>
+
+<h2>Core Java Courses Works!</h2><hr>
   <div>
   <table border="2" style="width: 100%; height: 100%;">
     <tr>
@@ -19,37 +19,37 @@
         </td>
     </tr>
     <tr>
-        <th class="bg-info text-white">
+        <th class=" text-green">
             Course Id
         </th>
-        <th class="bg-info text-white">
+        <th class="text-green">
             Course Name
         </th>
-        <th class="bg-info text-white">
+        <th class="text-green">
             Course Price
         </th>
-        <th class="bg-info text-white">
+        <th class="text-green">
             Course Descrption
         </th>
-        <th class="bg-info text-white">
+        <th class="text-green">
             Course Img
         </th>
     </tr>
     <tr appMycolor *ngFor="let Course of courses | coursesearch:filteredString | coursesort:sortby">
 
-        <td  class=" text-black">
+        <td  class=" text-red">
             {{Course.courseId}}
      </td>
-     <td  class=" text-black">
+     <td  class=" text-red">
          {{Course.courseName | titlecase}}
   </td>
-  <td  class="text-black">
+  <td  class="text-red">
      {{Course.coursePrice | currency:'USD'}}
 </td>
-<td   class=" text-black">
+<td   class=" text-red">
  {{Course.courseDescrption | lowercase}}
 </td>
-<td  class=" text-black">
+<td  class=" text-red">
  <img [src]="Course.courseImg" height="70px" width="90px">
 </td>
  </tr>

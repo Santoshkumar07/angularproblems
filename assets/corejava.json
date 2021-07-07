@@ -1,6 +1,5 @@
 [
-    {"courseId":101, "courseName":"core java","coursePrice":25000,"courseDescrption":"Fullstack  training for 70 days","courseImg":"assets/images/corejava.png"},
-    {"courseId":102, "courseName":"spring framework","coursePrice":7000,"courseDescrption":"spring framework training for 30 days","courseImg":"assets/images/spring.png"},
-    {"courseId":103, "courseName":"spring boot","coursePrice":12000,"courseDescrption":"spring boot training for 40 days","courseImg":"assets/images/springboot.png"},
-    {"courseId":104, "courseName":"microservices","coursePrice":18000,"courseDescrption":"AI training for 68 days","courseImg":"assets/images/ai.jpg"}
+    {"courseId":101, "courseName":"Collections","coursePrice":25000,"courseDescrption":"Collection  training for 7 days","courseImg":"assets/images/coll.jpg"},
+    {"courseId":102, "courseName":"Multithreading","coursePrice":12000,"courseDescrption":"Multithreading  training for  5 days","courseImg":"assets/images/multi.jpg"},
+    {"courseId":103, "courseName":"Exception handling","coursePrice":6500,"courseDescrption":"Exception handling training for 4 days","courseImg":"assets/images/exc.jpg"}
 ]
